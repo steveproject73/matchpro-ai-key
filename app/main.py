@@ -3,7 +3,7 @@ from fastapi import FastAPI, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 import asyncio
 
-from app.helpers import score, gpt_suggestions   # ← già definiti in helpers.py
+from .helpers import score, gpt_suggestions   # ← già definiti in helpers.py
 
 app = FastAPI(title="MatchPro AI – demo")
 app.add_middleware(CORSMiddleware, allow_origins=["*"])
