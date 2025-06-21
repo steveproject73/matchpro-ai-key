@@ -1,7 +1,0 @@
-fastapi==0.111.0
-uvicorn[standard]
-openai>=1.23
-pdfplumber~=0.11
-newspaper3k~=0.2
-python-dotenv~=1.0
-scikit-learn~=1.5
